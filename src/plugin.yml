@@ -1,0 +1,22 @@
+name: DreamPets
+main: com.mrsweeter.dreampets.DreamPets
+version: 0.1
+author: MrSweeter
+
+commands:
+    pets:
+        description: Pets !
+        usage: §c/pets <entity>
+        permission: dreampets.pets.show
+    petsbuy:
+        description: Pets !
+        usage: §c/petsbuy <entity>
+        permission: dreampets.pets.buy
+    petscustom:
+        description: Pets !
+        usage: §c/petscustom <entity> <name> <ai> <distance>
+        permission: dreampets.pets.custom
+    petsreload:
+        description: Pets !
+        usage: §c/petsreload
+        permission: dreampets.reload
